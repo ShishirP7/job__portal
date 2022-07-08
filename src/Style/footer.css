@@ -1,0 +1,256 @@
+
+.footerContainer {
+    
+    background-image: url("../Images/Footer/footerbg.png");
+    width: 100%;
+    height: 930px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .subscribeBtn {
+    width: 180px;
+    min-width: 100px;
+    height: auto;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: none;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+  }
+  
+  .subscribeBtn:hover {
+    background-image: linear-gradient(90deg, #4cce5b 0%, #38a745 63%);
+    overflow: hidden;
+  }
+  
+  .footer-Subscribe {
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 1300px;
+    text-align: center;
+    padding: 60px 0;
+    display: flex;
+    height: 190px;
+    flex-direction: column;
+    color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  
+  .footer-Subscribe h1 {
+    color: rgb(78, 78, 78);
+    font-size: 38px;
+  }
+  
+  .subscribe-input {
+    width: 40%;
+    height: 55px;
+    border: 1px solid #4cce5b;
+    outline: none;
+    text-align: left;
+    overflow: hidden;
+  }
+  
+  .inputBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .imgg {
+    position: relative;
+    bottom: 80px;
+    overflow: hidden;
+    animation-name: vertical;
+  
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes vertical {
+    0% {
+      bottom: 100px;
+    }
+    50% {
+      bottom: 60px;
+    }
+    100% {
+      bottom: 100px;
+    }
+  }
+  
+  @keyframes horizontal {
+    0% {
+      right: 100px;
+    }
+    50% {
+      right: 30px;
+    }
+    100% {
+      right: 100px;
+    }
+  }
+  
+  .imgg2 {
+    position: relative;
+    right: 50px;
+    top: 50px;
+    overflow: hidden;
+    animation-name: horizontal;
+  
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+  }
+  
+  .imgg3 {
+    position: relative;
+    bottom: 100px;
+    left: 60%;
+    overflow: hidden;
+    animation-name: vertical;
+  
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+  }
+  
+  .imgg4 {
+    position: relative;
+    margin-left: 70%;
+    overflow: hidden;
+    animation-name: horizontal;
+  
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+  }
+  
+  .footer-details {
+    margin-top: 20px;
+    width: 1300px;
+    text-align: center;
+    padding: 70px 0;
+    display: flex;
+    height: 320px;
+    flex-direction: row;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  
+  .footer-row1 {
+    width: 350px;
+    text-align: left;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .footer-row2 {
+    width: 350px;
+    text-align: left;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .footer-row3 {
+    width: 350px;
+    text-align: left;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .footer-row4 {
+    width: 350px;
+    text-align: left;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .footer-details h2 {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  
+  .hr2 {
+    background-color: rgb(238, 238, 238);
+    border: 2px solid;
+    position: relative;
+    left: 0rem;
+    bottom: 1.375rem;
+    width: 3.125rem;
+    overflow: hidden;
+  }
+  
+  .icons {
+    font-size: 1.25rem;
+    overflow: hidden;
+  }
+  
+  .footer-items {
+    align-items: center;
+    text-align: left;
+    line-height: 3;
+    overflow: hidden;
+  }
+  
+  .socialmedia-icons {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    margin-top: 1.875rem;
+    font-size: 1.25rem;
+    overflow: hidden;
+  }
+  
+  .logoProduct {
+    padding-bottom: 1.125rem;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .hr3 {
+    width: 81.25rem;
+    color: rgba(247, 247, 247, 0.39);
+    border: .0313rem solid;
+    overflow: hidden;
+  }
+  
+  .copyright {
+    width: 81.25rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.125rem;
+    font-weight: normal;
+    padding-top: 1.875rem;
+    overflow: hidden;
+  }
+  
+  .footertext {
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    transition: 0.3s;
+    color: white;
+    overflow: hidden;
+  }
+  
+  .footertext:hover {
+    cursor: pointer;
+    color: #231f20;
+    overflow: hidden;
+  }
+  

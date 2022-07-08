@@ -1,0 +1,366 @@
+.jobCardd {
+    display: flex;
+    flex-direction: row;
+    transition: ease-in 0.3s;
+    align-items: center;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.jobCardd h3 {
+    font-size: 16px;
+}
+
+.jobCardd:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+.jobCardd img {
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.jobCard-Area {
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    gap: 20px;
+}
+
+.container-Job {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jobArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    margin-left: 40px;
+    width: max-content;
+}
+
+.jobArea h1 {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 24px;
+}
+
+.jobArea h1:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 5px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(89, 179, 37);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.jobArea h1:hover:after {
+    transform: scaleX(1);
+    transform-origin: top right;
+}
+
+.Hotjo {
+    color: rgb(89, 179, 37);
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    top: 10px;
+    padding: 10px;
+    right: 8px;
+}
+
+
+/*post a jpb */
+
+.jobFormContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.jobForm {
+    width: 1300px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    gap: 20px;
+    padding: 60px 0;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.form-colu1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#radio {
+    margin-left: 20px;
+}
+
+.form-colu2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.form-colu1 input {
+    height: 5px;
+    border: 1px solid #ebebeb;
+    width: 550px;
+    padding: 20px;
+}
+
+.radioContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.radioContainer input {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.descArea {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+    left: 40px;
+}
+
+.descArea input {
+    width: 93%;
+    height: 300px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    resize: none;
+}
+
+.form-colu1 select {
+    width: 590px;
+    height: 49px;
+    border: 1px solid #ebebeb;
+    color: #ebebeb;
+}
+
+#categoryjob {
+    color: grey;
+}
+
+.jobPost_Btn {
+    font-weight: 600;
+    font-size: 18px;
+    background: -webkit-gradient( linear, left top, right top, from(#38a745), color-stop(63%, #4cce5b));
+    background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+    padding: 16px 50px;
+    color: #ffffff;
+    border-radius: 0;
+    border: none;
+}
+
+
+/*Job details  */
+
+.job-desc-Column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 60px;
+}
+
+.job-desc-row1 {
+    width: 45%;
+}
+
+.job-desc-row2 {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.overviewDtl {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.overview {
+    padding: 30px;
+    border: 1px solid grey;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.overview,
+hr {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.overviewDtl #icons {
+    color: #4cce5b;
+    font-size: 35px;
+    margin-right: 20px;
+}
+
+.CompanyAdd {
+    padding: 30px;
+    border: 1px solid grey;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.CompanyAdd #icons {
+    color: #4cce5b;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.applynowbtn {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    margin-top: 30px;
+    border: none;
+    color: #ffffff;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    background: -webkit-gradient( linear, left top, right top, from(#38a745), color-stop(63%, #4cce5b));
+    background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+    font-size: 16px;
+}
+
+.job-desc-Column div p {
+    color: #808291;
+    margin-bottom: 12px;
+    line-height: 1.7;
+}
+
+.job-desc-Column div h2 {
+    margin: 20px 0;
+}
+
+.viewAll {
+    color: #38a745;
+    width: 95%;
+    text-align: right;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.viewAll .icon {
+    color: #38a745;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+}
+
+
+/*all jobs css*/
+
+.navigationJob {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 999;
+}
+
+.navigationJob li {
+    width: 10px;
+    height: 10px;
+    background: #999;
+    border-radius: 50%;
+    margin: 20px;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.navigationJob li:hover,
+.navigationJob li.selected {
+    background: none;
+    transform: scale(2);
+}
+
+.sectionNav {
+    height: 100vh;
+    position: relative;
+}
+
+.sectionNav:nth-child(1) {
+    background: #9ab1f1;
+}
+
+.sectionNav:nth-child(2) {
+    background: #fff;
+}
+
+.sectionNav:nth-child(3) {
+    background: #d082e5;
+}
+
+.sectionNav:nth-child(4) {
+    background: #b2e0b4;
+}
+
+.sectionNav>div {
+    font-size: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/*
+tryyy
+*/

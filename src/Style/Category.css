@@ -1,0 +1,232 @@
+.catitem-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.category-Items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    text-align: center;
+    position: relative;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.money {
+    color: #2bce25;
+    overflow: hidden;
+}
+
+.card {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 220px;
+    padding: 40px 60px;
+    transition: ease-out 0.9s;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.categoryImg {
+    max-width: 40px;
+    background-color: rgb(202, 159, 138);
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.categoryImg2 {
+    max-width: 40px;
+    background-color: rgba(155, 164, 245, 0.63);
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.categoryImg3 {
+    max-width: 40px;
+    background-color: #73c7ae;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.categoryImg4 {
+    max-width: 40px;
+    background-color: #e0d5a3;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.categoryImg5 {
+    max-width: 40px;
+    background-color: #b1b0ae;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.categoryImg6 {
+    max-width: 40px;
+    background-color: #89cbd6;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.categoryImg7 {
+    max-width: 40px;
+    background-color: #db98cb;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.categoryImg8 {
+    max-width: 40px;
+    background-color: #af7373;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.categoryImg9 {
+    max-width: 40px;
+    background-color: #a1d1a0;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.categoryImg10 {
+    max-width: 40px;
+    background-color: #f38080;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.category-Text:hover {
+    color: rgb(231, 81, 6);
+}
+
+.category-Text2:hover {
+    color: rgba(155, 164, 245, 0.63);
+}
+
+.category-Text3:hover {
+    color: #73c7ae;
+}
+
+.category-Text4:hover {
+    color: #e0d5a3;
+}
+
+.category-Text5:hover {
+    color: #b1b0ae;
+}
+
+.category-Text6:hover {
+    color: #89cbd6;
+}
+
+.category-Text7:hover {
+    color: #db98cb;
+}
+
+.category-Text8:hover {
+    color: #af7373;
+}
+
+.category-Text9:hover {
+    color: #2bce25;
+}
+
+.category-Text10:hover {
+    color: #ff0000;
+    overflow: hidden;
+}
+
+.card p {
+    font-size: 14px;
+    max-width: 120px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+
+/* Company Lists*/
+
+.AllcompanyList {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 40px;
+    background-color: rgb(240, 240, 240);
+    padding: 100px 0;
+}
+
+.companyCardd {
+    background-color: white;
+    padding: 40px 50px;
+    height: 220px;
+    transition: ease-out 0.6s;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+
+.companyCardd:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.companyCardd h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.companyCardd button {
+    width: 85px;
+    height: 45px;
+    color: rgb(0, 0, 0);
+    border: 1px #4cce5b solid;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+    margin-right: 15px;
+    box-shadow: inset 0 0 0 0 #4cce5b;
+    transition: ease-out 0.4s;
+    margin-top: 20px;
+}
+
+.companyCardd button:hover {
+    color: white;
+    box-shadow: inset 400px 0 0 0 #4cce5b;
+}

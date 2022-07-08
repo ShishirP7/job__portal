@@ -1,0 +1,255 @@
+.Navbar {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  z-index: 100;
+}
+
+.Navbar > .nav-logo {
+  font-weight: 700;
+  font-size: 21px;
+  margin: 15px;
+}
+.Navbar a {
+  text-decoration: none;
+  color: black;
+}
+.Navbar a:hover {
+  color: #45dd57;
+  font-weight: bold;
+}
+.Navbar > .nav-items > a {
+  font-size: 18px;
+  text-decoration: none;
+  margin: 15px;
+  position: relative;
+  opacity: 0.9;
+  color: black;
+}
+.navItems {
+  font-size: 18px;
+  text-decoration: none;
+  margin: 15px;
+  position: relative;
+  opacity: 0.9;
+  color: black;
+  cursor: pointer;
+  align-items: center;
+}
+.navItems:hover {
+  color: #38a745;
+}
+.downArrow {
+  position: relative;
+  top: 3px;
+}
+
+.dropbtn {
+  font-size: 18px;
+  text-decoration: none;
+  margin: 15px;
+  position: relative;
+  opacity: 0.9;
+  color: black;
+  transition: 2s ease-out;
+}
+
+.Navbar > .nav-items > a:hover {
+  opacity: 1;
+}
+
+.Navbar > .nav-items > a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background: #15c33e;
+  transition: all 0.45s;
+}
+
+.Navbar > .nav-items > a:hover::before {
+  width: 100%;
+}
+
+.Navbar > .nav-toggle {
+  display: none;
+}
+
+@media (max-width: 700px) {
+    .Navbar > .nav-items {
+        position: absolute;
+        top: 85px;
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff00;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: all 0.45s;
+    }
+.navbuttons{
+    display:none;
+}
+  .Navbar > .nav-items > a::before {
+    background-color: white;
+  }
+
+  .Navbar > .nav-items.open {
+    transform: translateX(0);
+  }
+
+  .Navbar > .nav-toggle {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .nav-toggle > .bar {
+    position: relative;
+    width: 32px;
+    height: 2px;
+    background: #20e827;
+    transition: all 0.45s ease-in-out;
+  }
+
+  .nav-toggle > .bar::before,
+  .nav-toggle > .bar::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #20e827;
+    border-radius: 2px;
+    transition: all 0.45s ease-in-out;
+  }
+
+  .nav-toggle > .bar::before {
+    width: 25px;
+    transform: translateY(-8px);
+    right: 0;
+  }
+
+  .nav-toggle > .bar::after {
+    width: 32px;
+    transform: translateY(8px);
+  }
+
+  .nav-toggle.open > .bar {
+    transform: translateX(-40px);
+    background: transparent;
+  }
+
+  .nav-toggle.open > .bar::before {
+    width: 32px;
+    transform: rotate(45deg) translate(26px, -26px);
+  }
+
+  .nav-toggle.open > .bar::after {
+    transform: rotate(-45deg) translate(26px, 26px);
+  }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  transition: ease-out 2s;
+  transition: 0.4s;
+  position: absolute;
+  background-color: #343a40;
+  width: 200px;
+  height: max-content;
+  line-height: 1.5;
+  padding: 10px 5px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  color: #4cce5b;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.Navbar img {
+  margin-right: 100px;
+}
+
+.navbuttons {
+  margin-left: 100px;
+}
+
+.navbuttons .btn1 {
+  width: 125px;
+  min-width: 100px;
+  height: 48px;
+  color: rgb(0, 0, 0);
+  border: 1px #4cce5b solid;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  margin-right: 15px;
+  box-shadow: inset 0 0 0 0 #4cce5b;
+  transition: ease-out 0.4s;
+}
+
+.navbuttons .btn1:hover {
+  color: white;
+  font-size: 16px;
+  box-shadow: inset 400px 0 0 0 #4cce5b;
+}
+
+.navbuttons .btn2 {
+  width: 125px;
+  min-width: 100px;
+  height: 48px;
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: ease-in-out 0.4s;
+  background-image: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+  box-shadow: inset 0 0 0 0 #ffffff;
+  border: none;
+}
+
+.navbuttons .btn2:hover {
+  font-weight: bold;
+  border: 2px solid #4cce5b;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  box-shadow: inset 400px 0 0 0 #ffffff;
+}

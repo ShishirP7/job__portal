@@ -1,0 +1,121 @@
+.jobAndSideBar {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.topCompanyContainer {
+    height: max-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+    position: relative;
+    top: 112px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+
+.topCompanyContainer .topComp img {
+    width: 30px;
+    height: 30px;
+}
+
+.topCompanyContainer .topComp {
+    display: flex;
+    flex-direction: row;
+    line-height: 1.6;
+    font-weight: bold;
+    font-size: 16px;
+    gap: 20px;
+    color: rgb(106, 106, 106);
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.topCompanyContainer hr {}
+
+.topCompanyContainer h4 {
+    width: 100%;
+    background-color: #4cce5b;
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    padding: 15px 0;
+}
+
+.companyArea {
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.SideBarContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.jobCategSideBar {
+    width: 300px;
+    height: max-content;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-sizing: border-box;
+    position: relative;
+    top: 112px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    height: max-content;
+    margin-top: 80px;
+}
+
+.jobCategContainer h4 {
+    width: 100%;
+    background-color: #4cce5b;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 15px 0;
+    margin-bottom: 15px;
+}
+
+.jobCategContainer .jobcateg {
+    padding-left: 40px;
+}
+
+.jobCategContainer .jobcateg li {
+    line-height: 1.6;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.jobCategContainer .jobcateg li:hover {
+    color: rgb(45, 211, 50);
+    text-decoration: underline;
+}
+
+.jobCategContainer .categCard {
+    padding-bottom: 10px;
+    color: rgb(106, 106, 106);
+}
+
+.trainingCard {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.trainingCards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.trainingCard img {
+    width: 120px;
+    height: 70px;
+}

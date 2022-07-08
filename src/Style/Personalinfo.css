@@ -1,0 +1,235 @@
+.PersonalInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  height: max-height;
+  padding-top: 6.25rem;
+}
+
+.uploadPhoto {
+  display: flex;
+  flex-direction: row;
+}
+#choose {
+  display: flex;
+  flex-direction: column;
+  background-color: #837d7e;
+  text-align: center;
+  padding: 3.125rem 3.125rem;
+  align-items: center;
+  line-height: 2;
+  color: white;
+}
+
+#InputDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+#InputDetails input {
+  border: .0625rem solid #d6d5d5;
+  height: 3.75rem;
+  width: 34.375rem;
+  border-radius: 0;
+  margin-bottom: 1.875rem;
+  padding-left: 1.875rem;
+  font-size: .9375rem;
+  font-weight: 500;
+  margin-left: 1.875rem;
+
+  resize: none;
+  outline: none;
+}
+.imgCamera {
+  color: #ffffff;
+  font-size: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+#InputDetails button {
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  border: none;
+  margin-left: 1.875rem;
+  width: 8.125rem;
+  height: 3.75rem;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+}
+
+#InputDetails button:hover {
+  background: linear-gradient(90deg, #4cce5b 0%, #38a745 63%);
+}
+
+.BasicInfo {
+  width: 81.25rem;
+  padding: 2.5rem;
+  border: .0625rem solid grey;
+}
+.inputname {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.inputname #input1 {
+  border: .0625rem solid #d6d5d5;
+  height: 3.75rem;
+  width: 34.375rem;
+  border-radius: 0;
+  margin-bottom: 1.875rem;
+  padding-left: 1.875rem;
+  font-size: .9375rem;
+  font-weight: 500;
+
+  resize: none;
+  outline: none;
+}
+
+.uploadcover {
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  border: none;
+  margin-top: 3.125rem;
+  width: 12.5rem;
+  height: 3.4375rem;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+}
+.uploadcover:hover{
+  background: linear-gradient(90deg, #4cce5b 0%, #38a745 63%);
+}
+.uploadcv {
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  border: none;
+  margin-left: 1.875rem;
+  margin-bottom: 2.5rem;
+  width: 12.5rem;
+  height: 3.4375rem;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+}
+
+.uploadcv:hover{
+  background: linear-gradient(90deg, #4cce5b 0%, #38a745 63%);
+}
+
+#input-Description {
+  border: .0625rem solid #d6d5d5;
+  height: 13.75rem;
+  width: 97%;
+  border-radius: 0;
+  margin-bottom: 1.875rem;
+  padding-left: 1.875rem;
+  font-size: .9375rem;
+  font-weight: 500;
+
+  resize: none;
+  outline: none;
+}
+
+#female {
+  margin-left: 1.875rem;
+}
+
+.genderArea #genderRadio {
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+.SkillArea {
+  width: 81.25rem;
+  padding: 2.5rem;
+
+  margin-top: 5rem;
+  border: .0625rem grey solid;
+}
+
+.SkillArea #a {
+  display: flex;
+  justify-content: space-between;
+
+  flex-direction: row;
+  width: 100%;
+}
+.SkillArea #b {
+  display: flex;
+  flex-direction: row;
+}
+
+.SkillbuttonArea {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.SkillbuttonArea button {
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  border: none;
+  margin-left: 1.875rem;
+  width: 8.125rem;
+  height: 3.75rem;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+}
+.SkillbuttonArea button:hover{
+  background: linear-gradient(90deg, #4cce5b 0%, #38a745 63%);
+}
+
+#input1 {
+  border: .0625rem solid #d6d5d5;
+  height: 3.75rem;
+  width: 34.375rem;
+  border-radius: 0;
+  margin-bottom: 1.875rem;
+  padding-left: 1.875rem;
+  font-size: .9375rem;
+  font-weight: 500;
+
+  resize: none;
+  outline: none;
+}
+
+.social-col1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 1.875rem;
+}
+
+.social-textfield1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-save {
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  border: none;
+  margin-top: 2.5rem;
+  width: 8.125rem;
+  height: 3.75rem;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+}
+
+.btn-save:hover{
+  background: linear-gradient(90deg, #4cce5b 0%, #38a745 63%);
+}
+
+
+.social-col2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -1,0 +1,132 @@
+.RegisterContainer {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+
+  background-color: rgb(227, 227, 227);
+
+  align-items: center;
+}
+
+.RegisterForm {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  height: max-content;
+  padding: 30px 0;
+  width: 60%;
+  text-align: center;
+  border: none;
+
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.RegisterForm .divRight {
+  width: 45%;
+background-color: #38a745;
+}
+
+.RegisterForm .divLeft {
+  width: 45%;
+  border-right: 1px solid silver;
+}
+.divRight-Details {
+  display: flex;
+  padding-right: 40px;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+}
+.divRight-Details input {
+  width: 70%;
+  height: 30px;
+  outline: none;
+  padding: 10px;
+}
+
+.divRight-Details button {
+  height: 54px;
+  width: 10%;
+  background-image: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+  font-size: 14px;
+  color: white;
+  border: none;
+}
+.divRight-Details div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 5px;
+}
+.divRight-Details select {
+  margin-top: 5px;
+  position: relative;
+  left: 35px;
+  padding: 0 20px;
+  height: 50px;
+  width: 85%;
+}
+.divRight-Details .CreateAcc {
+  width: 80%;
+  padding: 20px 50px;
+  position: relative;
+  left: 40px;
+  margin-top: 20px;
+}
+
+.divRight-Details span {
+  color: #4cce5b;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.divRight-Details span:hover {
+  color: red;
+}
+
+.SigninOption {
+  padding-top: 120px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nullclass {
+  display: none;
+}
+
+
+
+.RegisterForm2 {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  height: max-content;
+  padding: 30px 0;
+  width: 60%;
+  text-align: center;
+  border: none;
+
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.RegisterForm2 .divRight {
+  width: 45%;
+background-color: #38a745;
+}
+
+.RegisterForm2 .divLeft {
+  width: 45%;
+  border-left: 1px solid silver;
+}

@@ -1,0 +1,66 @@
+.CreateContainer {
+  background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+  min-height: 28.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.titleArea h1 {
+  color: #ffffff;
+  margin-bottom: .9375rem;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.375rem;
+}
+
+.titleArea ul {
+  list-style-type: none;
+  display: flex;
+  color: white;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  align-items: center;
+}
+.create-ContactArea {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  /* background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%); */
+}
+
+.create-Contact {
+  display: flex;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  height: 7.5rem;
+  padding-top: 3.125rem;
+
+  width: 53.125rem;
+}
+
+.create-Contact button {
+  color: white;
+  background: linear-gradient(90deg, #38a745 0%, #4cce5b 63%);
+  border: none;
+  width: 6.875rem;
+  height: 3.125rem;
+  font-size: 1rem;
+  margin-left: .625rem;
+}
+
+.create-Contact button:hover {
+  background: linear-gradient(90deg, #4cce5b 0%, #38a745 63%);
+}
+.create-Contact p {
+  color: #7f7e7e;
+  font-size: 1rem;
+}
+.create {
+  display: flex;
+
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

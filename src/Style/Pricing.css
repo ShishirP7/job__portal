@@ -1,0 +1,48 @@
+.pricingCardDetails {
+    margin-top: 80px;
+    overflow: hidden;
+  }
+  
+  .listing li{
+  list-style-type: none;
+  display: flex;
+  text-align: center;
+  line-height: 3;
+  }
+  .pricedetails h4, h2, p{
+    line-height: 2.5;
+  }
+  .pricedetails  h2{
+    font-size: 50px;
+  }
+  .pricingCardDetails {
+    margin-right: 30px;
+    transition: ease-out 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 100px;
+    overflow: hidden;
+    cursor: pointer;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    padding-left: 140px;
+    padding-right: 120px;
+    height: 400px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .priceCard {
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    overflow: hidden;
+  }
+  .pricingCardDetails:hover {
+    position: relative;
+    transform: translate(0, -10px);
+    overflow: hidden;
+    
+  }
